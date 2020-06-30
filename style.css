@@ -9,8 +9,7 @@ h2{
     font-size: 40px;
 }
 p{
-    text-align: right;
-    margin: 2px;
+    color: dimgray;
 }
 }
 .orange-highlight{
@@ -22,7 +21,7 @@ p{
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    margin-right: 3%;
+    
 }
 .half-width img{
     width: 100%;
@@ -32,15 +31,19 @@ p{
     background-repeat: no-repeat;
 }
 section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+/* section{
     display: inline-flex ;
     background-repeat: no-repeat;
     padding: 60px 0;
     overflow: hidden;
 
-}
+} */
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(lightSalmon,orange);
+    background-image: linear-gradient(45deg, lightSalmon ,orange);
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
